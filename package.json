@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "postcss style/tailwind.css -o style/main.css",
-    "watch": "watch 'npm run build:css' ./layouts"
+    "build": "postcss style/tailwind.css -o public/build/main.css",
+    "watch": "watch 'npm run build' ./style"
   },
   "author": "",
   "license": "ISC",

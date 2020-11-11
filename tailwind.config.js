@@ -2,8 +2,13 @@ module.exports = {
   future: {},
   purge: [],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "bluelight-500": "#E3EAF8",
+        "pinklight-500": "#FCE7F6",
+      },
+    },
   },
   variants: {},
-  plugins: [],
+  plugins: [require("tailwindcss"), require("autoprefixer")],
 };

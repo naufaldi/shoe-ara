@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/build/main.css" />
+  </head>
+  <body class="min-h-screen bg-blue-100 flex flex-col">
+    <nav class="w-full bg-white">
+      <div
+        class="flex px-12 py-8 max-w-screen-xl items-center justify-between mx-auto h-24"
+      >
+        <div class="flex items-center">
+          <img src="/img/logo.png" class="h-12 mr-2" alt="" />
+          <h1 class="text-3xl font-semibold">Shoe</h1>
+        </div>
+        <div class="flex items-center w-5/12 justify-between">
+          <div class="mx-4 text-black uppercase border-b-4 border-pink-500">
+            <p class="text-xl font-semibold opacity-25">Home</p>
+          </div>
+          <div
+            class="mx-4 text-black uppercase border-transparent border-b-2 hover:border-pink-500"
+          >
+            <p class="text-xl font-semibold opacity-25">About</p>
+          </div>
+          <div
+            class="mx-4 text-black uppercase border-transparent border-b-2 hover:border-pink-500"
+          >
+            <p class="text-xl font-semibold opacity-25">Shop</p>
+          </div>
+          <div
+            class="mx-4 text-black uppercase border-transparent border-b-2 hover:border-pink-500"
+          >
+            <p class="text-xl font-semibold opacity-25">Contact</p>
+          </div>
+          <div
+            class="mx-4 text-black uppercase hover:border-b-2 hover:border-pink-500"
+          >
+            <img src="/img/search.svg" class="w-6 h-6" alt="" />
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="bg-gradient-to-br flex-1 from-bluelight-500 to-pinklight-500 relative rounded-tl-3xl rounded-tr-3xl"
+    >
+      <img
+        src="/img/shape/shape-1.svg"
+        class="w-48 h-48 top-0 left-0 absolute mt-16"
+        alt=""
+      />
+      <img
+        src="/img/shape/shape-1.svg"
+        class="h-20 w-20 bottom-0 left-0 absolute mb-16 ml-16"
+        alt=""
+      />
+      <div class="flex px-12 py-8 mx-auto max-w-screen-xl z-10 relative">
+        <div class="w-5/12 flex flex-col items-start py-12 justify-between">
+          <p class="text-5xl font-light tracking-wider">
+            Are you ready to <strong class="font-bold">lead the way</strong>
+          </p>
+          <p class="text-xl tracking-wide my-16 leading-7">
+            Mauris porta lectus nulla, non dignissim dolor sollicitudin et. Sed
+            mi tortor, aliquam eget congue a, faucibus sed est.
+          </p>
+          <button
+            class="bg-white shadow-lg rounded-l-full rounded-r-full text-pink-500 px-12 py-4 flex items-center text-2xl"
+          >
+            Buy Now
+            <span
+              ><img src="/img/chevron-right.svg" class="h-4 w-4 ml-5" alt=""
+            /></span>
+          </button>
+        </div>
+        <div class="w-7/12 flex flex-col py-12 items-end">
+          <img src="/img/content/shoes.png" class="w-8/12" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
